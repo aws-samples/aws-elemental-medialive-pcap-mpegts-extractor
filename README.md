@@ -8,6 +8,7 @@ This library is licensed under the Apache 2.0 License.
 
 1. To compile the source, use any gcc or ANSI c compiler
    $ gcc tsextract.c -o tsextract
+   Repo contains a centos 7 compiled Linux executable.
 
 2. Usage: 
 
