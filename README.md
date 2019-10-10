@@ -24,8 +24,10 @@ This library is licensed under the Apache 2.0 License.
   ###### c. At the moment, captures with VLAN headers are not supported. Will probably add that soon.
   ###### d. No support for Linux cooked captures. i.e, This will not work if you captured with tcpdump -i any ...
   ###### e. No support (yet) for filtering by source IP.
-  ###### f. At the moment, dest IP and PORT are matched using string compare, so the match may fail if you use sayi, 10.01.02.03 instead of 10.1.2.3. (see below)
-      To see what IP you should use, check with tcpdump -r [pcapfile]
+  ###### f. At the moment, dest IP and PORT are matched using string compare, so the match may fail if you use say, 10.01.02.03 instead of 10.1.2.3. (see below)
+            To see what IP you should use, check with tcpdump -r [pcapfile]
+ ###### g. Next generation pcaps are not supported. I will add that program in a bit
+      
 
 #### 4. Possible Next steps:
 
